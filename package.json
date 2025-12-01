@@ -1,0 +1,25 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "my project1 with Git & Github",
+  "homepage": "https://github.com/jofrodriguezsu/myProject1#readme",
+  "bugs": {
+    "url": "https://github.com/jofrodriguezsu/myProject1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofrodriguezsu/myProject1.git"
+  },
+  "license": "ISC",
+  "author": "Jose Rodríguez",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
+  }
+}
